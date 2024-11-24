@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8a8b523525ac646bd627afb64ce17e, type: 3}
+  m_Name: NotificationConfigSO
+  m_EditorClassIdentifier: 
+  pushInfors:
+  - Day: 0
+    Hour: 20
+    Minutes: 0
+    Title: My dream nails!
+    Description: What should we polish our pretty nails today?
+  - Day: 1
+    Hour: 20
+    Minutes: 0
+    Title: Glitter-Me-Up
+    Description: What's better than Glitter?
+  - Day: 2
+    Hour: 20
+    Minutes: 0
+    Title: We all love tips
+    Description: Let's get some nail done together.
+  - Day: 4
+    Hour: 20
+    Minutes: 0
+    Title: Love yourself
+    Description: Let's get started with your nails. Touch here now!
+  - Day: 6
+    Hour: 20
+    Minutes: 0
+    Title: New Stickers!
+    Description: It looks pretty on your nails!
+  - Day: 8
+    Hour: 20
+    Minutes: 0
+    Title: Mama Mani & Papa Pedi
+    Description: Pretty from finger to toe
+  - Day: 10
+    Hour: 20
+    Minutes: 0
+    Title: Blink-blink!
+    Description: I love shiny nails. Let's make them shine.
+  - Day: 12
+    Hour: 20
+    Minutes: 0
+    Title: What's new?
+    Description: New designs have arrived. Check them now!
+  - Day: 14
+    Hour: 20
+    Minutes: 0
+    Title: Aw, so pretty nails!
+    Description: Where did you get that?
+  - Day: 16
+    Hour: 20
+    Minutes: 0
+    Title: Glitter or Shimmer?
+    Description: Oh, I can't choose. Why not both?
+  - Day: 18
+    Hour: 20
+    Minutes: 0
+    Title: Beauty Call!
+    Description: '[Kitty name] is here to make your nails beautiful!'
+  - Day: 22
+    Hour: 20
+    Minutes: 0
+    Title: New Nail, New Me!
+    Description: Who do you want to be today? Choose your pretty nails!
+  - Day: 26
+    Hour: 20
+    Minutes: 0
+    Title: Nail Makeover
+    Description: New day, new nail!
+  - Day: 30
+    Hour: 20
+    Minutes: 0
+    Title: Good evening,
+    Description: You've got new stuffs. Open it now!
