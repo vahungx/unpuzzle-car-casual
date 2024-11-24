@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953b79569a21a174a9f7b47743d2f079, type: 3}
+  m_Name: Daily
+  m_EditorClassIdentifier: 
+  dailys:
+  - id: 0
+    name: Day 1
+    type: 0
+    amount: 10
+    icon: {fileID: 21300000, guid: efeeb598d1aa60e43a4fc09bbea2d9d9, type: 3}
+    claimed: 0
+    state: 0
+  - id: 1
+    name: Day 2
+    type: 0
+    amount: 20
+    icon: {fileID: 21300000, guid: efeeb598d1aa60e43a4fc09bbea2d9d9, type: 3}
+    claimed: 0
+    state: 0
+  - id: 2
+    name: Day 3
+    type: 0
+    amount: 30
+    icon: {fileID: 21300000, guid: efeeb598d1aa60e43a4fc09bbea2d9d9, type: 3}
+    claimed: 0
+    state: 0
+  - id: 3
+    name: Day 4
+    type: 0
+    amount: 50
+    icon: {fileID: 21300000, guid: efeeb598d1aa60e43a4fc09bbea2d9d9, type: 3}
+    claimed: 0
+    state: 0
+  - id: 4
+    name: Day 5
+    type: 0
+    amount: 70
+    icon: {fileID: 21300000, guid: efeeb598d1aa60e43a4fc09bbea2d9d9, type: 3}
+    claimed: 0
+    state: 0
+  - id: 5
+    name: Day 6
+    type: 0
+    amount: 100
+    icon: {fileID: 21300000, guid: efeeb598d1aa60e43a4fc09bbea2d9d9, type: 3}
+    claimed: 0
+    state: 0
+  - id: 6
+    name: Day 7
+    type: 1
+    amount: 1
+    icon: {fileID: 21300000, guid: 3759b25dafefa7547ab7377e29b391df, type: 3}
+    claimed: 0
+    state: 0
+  - id: 7
+    name: Day 7
+    type: 1
+    amount: 1
+    icon: {fileID: 21300000, guid: f4f7ad1d39744414ba05800e3dbe39f0, type: 3}
+    claimed: 0
+    state: 0
