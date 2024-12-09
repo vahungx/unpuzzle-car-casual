@@ -76,7 +76,7 @@ public class LoadingCanvasController : MonoBehaviour
         else
         {
             //D2
-            SceneManager.LoadSceneAsync((int)SceneID.)
+            //SceneManager.LoadSceneAsync((int)SceneID.)
             nextScene = SceneManager.LoadSceneAsync((int)SceneID.Home, LoadSceneMode.Additive);
         }
         fillbar.DOFillAmount(1f, fillTime2);

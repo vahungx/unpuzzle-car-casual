@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 
 
 public class GameManager : MonoBehaviour
@@ -33,9 +29,6 @@ public class GameManager : MonoBehaviour
         Application.targetFrameRate = Constant.frameRate;
         DataMananger.instance.LoadData();
         GameState = State.Play;
-    }
-    private void Update()
-    {
     }
 
     #region Gameplay Follow

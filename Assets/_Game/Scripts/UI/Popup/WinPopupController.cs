@@ -58,22 +58,24 @@ public class WinPopupController : BasePopup
 
     public void OnClickGetAds()
     {
-        int amount = 1;
-        if (multiId == 0) amount *= 2;
-        if (multiId == 1) amount *= 3;
-        if (multiId == 2) amount *= 5;
-        //checkAds
-        DataMananger.instance.gameSave.currentDiamonds += amount;
-        DataMananger.instance.SaveGame();
-        if (DataMananger.instance.gameSave.currentLevel % 15 == 0)
+        AdsManager.Instance.ShowRewarded(() =>
         {
-            if (skinCollection.skins.Count > DataMananger.instance.gameSave.currentSkins.Count)
-                Instantiate(newSkinPopupPrefab, GameplayCanvasController.instance.transform);
+            int amount = 1;
+            if (multiId == 0) amount *= 2;
+            if (multiId == 1) amount *= 3;
+            if (multiId == 2) amount *= 5;
+            DataMananger.instance.gameSave.currentDiamonds += amount;
+            DataMananger.instance.SaveGame();
+            if (DataMananger.instance.gameSave.currentLevel % 15 == 0)
+            {
+                if (skinCollection.skins.Count > DataMananger.instance.gameSave.currentSkins.Count)
+                    Instantiate(newSkinPopupPrefab, GameplayCanvasController.instance.transform);
+                Destroy(gameObject);
+                return;
+            }
             Destroy(gameObject);
-            return;
-        }
-        Destroy(gameObject);
-        SceneManager.LoadScene((int)SceneID.Gameplay);
+            SceneManager.LoadScene((int)SceneID.Gameplay);
+        });
     }
 
     private void UpdateTextAdsBtn()
