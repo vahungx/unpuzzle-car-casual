@@ -5,17 +5,21 @@ using DG.Tweening;
 
 public class KeyController : MonoBehaviour
 {
+
+    Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    private void OnEnable()
+    {
+        animator.speed = Random.Range(0.5f, 0.8f);
+    }
+
     public void Drop()
     {
-        //Anim
         gameObject.SetActive(false);
-    }
-
-    private void Update()
-    {
-    }
-    public void Start()
-    {
-
     }
 }

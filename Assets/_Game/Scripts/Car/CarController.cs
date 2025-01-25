@@ -76,9 +76,9 @@ public class CarController : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        skinSpriteRenderer.gameObject.transform.DOScale(0.9f, 0.2f).SetEase(Ease.Linear).OnComplete(() =>
+        skinSpriteRenderer.transform.DOScale(0.9f, 0.2f).SetEase(Ease.Linear).OnComplete(() =>
         {
-            skinSpriteRenderer.gameObject.transform.localScale = Vector3.one * 0.9f;
+            skinSpriteRenderer.transform.localScale = Vector3.one * 0.9f;
         });
     }
 
